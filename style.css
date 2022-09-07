@@ -9,6 +9,15 @@ body{
     background-color: #6dbfd3;
 }
 
+header{
+    
+}
+
+.logo{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
 main{
     display: flex;
     margin-left: 80px;
@@ -33,21 +42,25 @@ main{
     position: relative;
     margin-top: 20px;
     margin-left: 205px;
+    border-radius: 7px;
 }
 
 .botones{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    
 }
 
 .encriptar{
     background-color: darkblue;
     color: white;
+    border-radius: 10px;
 }
 
 .desencriptar{
     margin-left: 30px;
+    border-radius: 10px;
 }
 
 .informacion{
@@ -57,5 +70,5 @@ main{
 footer{
     text-align: center;
     background-color: orchid;
-    padding: 10px;
+    padding: 10%;
 }
