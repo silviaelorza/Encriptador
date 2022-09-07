@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #76a5af;
+    background: linear-gradient(135deg,#ffd462,#76a5af,#ffd462) 
 }
 
 .logo{
@@ -49,7 +49,7 @@ main{
 }
 
 .encriptar{
-    background-color: darkblue;
+    background-color: #0c4480;
     color: white;
     border-radius: 10px;
 }
