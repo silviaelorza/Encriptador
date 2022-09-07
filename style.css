@@ -6,11 +6,7 @@
 }
 
 body{
-    background-color: #6dbfd3;
-}
-
-header{
-    
+    background-color: #76a5af;
 }
 
 .logo{
@@ -68,7 +64,8 @@ main{
 }
 
 footer{
+    display: block;
     text-align: center;
-    background-color: orchid;
-    padding: 10%;
+    background-color: #a06709;
+    padding: 1%;
 }
