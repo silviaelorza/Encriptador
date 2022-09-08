@@ -6,11 +6,11 @@
 }
 
 body{
-    background: linear-gradient(135deg,#ffd462,#76a5af,#ffd462) 
+    background: linear-gradient(#ffd462,#76a5af,#ffd462) 
 }
 
 .logo{
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -56,7 +56,7 @@ main{
 }
 
 .desencriptar{
-    margin-left: 30px;
+    margin-left: 120px;
     border-radius: 10px;
 }
 
@@ -65,10 +65,9 @@ main{
 }
 
 footer{
-    display: block;
     text-align: center;
     background-color: #a06709;
-    padding: 1%;
+    padding: 2em;
 }
 
 @media screen and (max-width:480px){
@@ -76,6 +75,9 @@ footer{
         width: auto;
     }
     .mensaje-box{
+        width: 100%;
+    }
+    footer{
         width: 100%;
     }
 }
