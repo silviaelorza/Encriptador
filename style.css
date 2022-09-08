@@ -6,11 +6,11 @@
 }
 
 body{
-    background: linear-gradient(#ffd462,#76a5af,#ffd462) 
+    background-color: #ffd462; 
 }
 
 .logo{
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 5%;
 }
 
@@ -23,23 +23,31 @@ main{
 
 .input-texto{
     margin-top: 90px;
+    border-radius: 7px;
+    background-color: #f6d992;
+    box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
 }
 
 .mensaje{
     position: relative;
     margin-top: 20px;
     margin-left: 90px;
+    border-radius: 7px;
+    background-color: #f6d992;
     background-image: url("imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
+    box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
 }
 
 .copiar{
     position: relative;
     margin-top: 20px;
     margin-left: 205px;
+    background-color: #f6d992;
     border-radius: 7px;
+    box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
 }
 
 .botones{
@@ -53,11 +61,14 @@ main{
     background-color: #0c4480;
     color: white;
     border-radius: 10px;
+    box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
 }
 
 .desencriptar{
     margin-left: 120px;
+    background-color: #f6d992;
     border-radius: 10px;
+    box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
 }
 
 .informacion{
