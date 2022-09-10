@@ -10,7 +10,7 @@ body{
 }
 
 .logo{
-    margin-left: 3%;
+    margin-left: 40px;
     margin-top: 5%;
 }
 
@@ -65,7 +65,7 @@ main{
 }
 
 .desencriptar{
-    margin-left: 120px;
+    margin-left: 150px;
     background-color: #f6d992;
     border-radius: 10px;
     box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
@@ -76,6 +76,7 @@ main{
 }
 
 footer{
+    width: 100%;
     text-align: center;
     background-color: #a06709;
     padding: 2em;
