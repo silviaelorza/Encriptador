@@ -48,6 +48,7 @@ main{
     background-color: #f6d992;
     border-radius: 7px;
     box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
+    cursor: pointer;
 }
 
 .botones{
@@ -62,6 +63,7 @@ main{
     color: white;
     border-radius: 10px;
     box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
+    cursor: pointer;
 }
 
 .desencriptar{
@@ -69,6 +71,7 @@ main{
     background-color: #f6d992;
     border-radius: 10px;
     box-shadow: rgb(68,68,68) 10px 10px 30px 15px;
+    cursor: pointer;
 }
 
 .informacion{
@@ -80,6 +83,23 @@ footer{
     text-align: center;
     background-color: #a06709;
     padding: 2em;
+}
+
+.integrado{
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+}
+
+.parrafo{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.redes-sociales{
+    display: inline-block;
+    padding-left: 30px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:480px){
